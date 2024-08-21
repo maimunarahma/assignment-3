@@ -210,11 +210,25 @@
 
 
       <!-- new project section -->
-      <div class="bg-[url('./assets/bg.jpg')] text-center">
+      <div class="bg-[url('./assets/bg.jpg')] text-center bg-no-repeat container bg-center">
         <button class="btn bg-explore-btn rounded-3xl h-[38px] my-10"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest Work</button>
           <h1 class="font-bold text-4xl mb-6">Let’s Discuss Next Project</h1>
            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-      </div>
+        <div class="flex flex-col justify-between gap-3">
+          <div class="flex lg:flex-row flex-col gap-3 lg:gap-0 items-center">
+            <input type="text" placeholder="First Name*" class="input input-bordered w-full max-w-xs rounded-2xl" />
+            <input type="text" placeholder="Last Name*" class="input input-bordered w-full max-w-xs rounded-2xl" />
+          </div>
+          <div  class="flex lg:flex-row flex-col gap-3 lg:gap-0 items-center">
+            <input type="text" placeholder="Phone Number*" class="input input-bordered w-full max-w-xs rounded-2xl" />
+            <input type="text" placeholder="Email Number*" class="input input-bordered w-full max-w-xs rounded-2xl" />
+          </div>
+          <div  class="flex lg:flex-row flex-col gap-3 lg:gap-0 items-center">
+            <textarea class="textarea textarea-ghost bg-white w-2/5" placeholder="Your Message Here" rows="4"></textarea></div>
+          <button class="btn bg-header-btn text-black mb-5 w-2/5 mx-[450px]">View Details <div class="relative w-[40px] h-[40px] rounded-3xl bg-nav-bg"> <i class="absolute top-3 left-4 fa-solid fa-arrow-pointer text-black "></i></div> </button>
+        </div>
+        
+          </div>
     </section>
   
 </body>
