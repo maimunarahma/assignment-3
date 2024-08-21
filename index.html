@@ -68,7 +68,9 @@
           </ul>
         </div>
         <div class="navbar-end flex flex-row items-center">
-       
+          <div class="hidden lg:block w-[20px] h-[20px] rounded right-5">
+            <i class="fa-solid fa-magnifying-glass text-black"></i>
+          </div>
           <a class="relative btn  bg-nav-bg rounded-3xl hidden lg:block w-[30%] py-3 right-6">Book Consult</a>
           <div class="absolute right-24 hidden lg:block py-3">
             <p class=" relative w-[25px] h-[25px]  rounded-2xl bg-black "> <i class="absolute top-1 left-2 fa-solid fa-arrow-pointer text-white "></i></p>
@@ -213,8 +215,8 @@
       <div class="bg-[url('./assets/bg.jpg')] text-center bg-no-repeat container bg-center">
         <button class="btn bg-explore-btn rounded-3xl h-[38px] my-10"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest Work</button>
           <h1 class="font-bold text-4xl mb-6">Let’s Discuss Next Project</h1>
-           <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-        <div class="flex flex-col justify-between gap-3">
+           <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        <div class="flex flex-col justify-between gap-3 lg:mx-[450px]">
           <div class="flex lg:flex-row flex-col gap-3 lg:gap-0 items-center">
             <input type="text" placeholder="First Name*" class="input input-bordered w-full max-w-xs rounded-2xl" />
             <input type="text" placeholder="Last Name*" class="input input-bordered w-full max-w-xs rounded-2xl" />
@@ -224,12 +226,29 @@
             <input type="text" placeholder="Email Number*" class="input input-bordered w-full max-w-xs rounded-2xl" />
           </div>
           <div  class="flex lg:flex-row flex-col gap-3 lg:gap-0 items-center">
-            <textarea class="textarea textarea-ghost bg-white w-2/5" placeholder="Your Message Here" rows="4"></textarea></div>
-          <button class="btn bg-header-btn text-black mb-5 w-2/5 mx-[450px]">View Details <div class="relative w-[40px] h-[40px] rounded-3xl bg-nav-bg"> <i class="absolute top-3 left-4 fa-solid fa-arrow-pointer text-black "></i></div> </button>
+            <textarea class="textarea textarea-ghost bg-white w-3/4 lg:w-full" placeholder="Your Message Here" rows="4"></textarea></div>
+          <button class="btn bg-header-btn text-black mb-28 w-3/4 lg:w-full lg:mx-0 mx-12">View Details <div class="relative w-[40px] h-[40px] rounded-3xl bg-nav-bg"> <i class="absolute top-3 left-4 fa-solid fa-arrow-pointer text-black "></i></div> </button>
         </div>
         
           </div>
     </section>
+
+    <footer class="bg-black text-white text-center pt-28">
+      <div class="flex flex-row items-center justify-between lg:px-[700px] px-[150px] mb-4">
+        <div class="relative  w-[40px] h-[40px] rounded-3xl bg-nav-bg"> <i class="absolute top-3 left-4 fa-solid fa-arrow-pointer text-white "></i></div>
+        <a class=" text-xl">Rinterio</a>
+      </div>
+      
+      <p class="font-medium text-lg text-[#737373] mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+     <div class="flex flex-col lg:flex-row ml-96 gap-8 lg:gap-36 mt-4 pb-28">
+      <h5>Home</h5>
+      <h5>Services</h5>
+      <h5>Portfolio</h5>
+      <h5>Blog</h5>
+      <h5>Contact Us</h5>
+     </div>
+     <button class="btn bg-header-btn text-black mb-48">Book Consultant <div class="relative w-[40px] h-[40px] rounded-3xl bg-nav-bg"> <i class="absolute top-3 left-4 fa-solid fa-arrow-pointer text-white "></i></div> </button>
+    </footer>
   
 </body>
 </html>
