@@ -32,12 +32,21 @@
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <style>
-
+            
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
     </style>
 </head>
-<body class="md:container mx-auto">
+<body class="md:container mx-auto manrope-normal">
     <header class=" bg-[#E9E9E9]">
       <div class="navbar bg-[#E9E9E9] ">
         <div class="navbar-start">
@@ -123,18 +132,18 @@
       
     </div> -->
    
-    <section class="  bg-article-bg w-full relative">
-      <div class="grid lg:grid-cols-2  grid-cols-1 gap-3">
+    <section class="  bg-article-bg w-full relative mx-auto">
+      <div class="flex lg:flex-row flex-col items-center justify-between  grid-cols-1 gap-3">
        
         <div class="flex flex-col lg:ml-6 gap-4 ml-0 ">
           <div class="">
-            <img src="./assets/Vector.png" alt="" class="w-16 hidden lg:block absolute left-16 -top-4">
+            <img src="./assets/Vector.png" alt="" class="w-16 hidden lg:block absolute left-9 -top-4">
             <button class="btn w-36 rounded-3xl mx-32 lg:mx-0 "><i class="fa-solid fa-arrow-right "></i>About Us</button>
             <h1 class="font-bold text-[40px]  text-center lg:text-left w-full px-[.5]">We design thoughtful <br> liveable spaces</h1>
             <p class="font-medium text-[16px] text-center   px-3 hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
               <p class="font-medium text-[16px] text-center   px-3 block lg:hidden">The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered wood, sleek metal accents.</p>
              
-              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl px-3 md:px-0 lg:w-full  mr-5">
+              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl  md:px-0 lg:w-full  mr-5">
                  <img src="./assets/commercial.png" alt="">
                 <div class="flex flex-col">
                   <h1 class="font-extrabold text-xl ">Commercial</h1>
@@ -154,8 +163,8 @@
   
           </div>
    
-        <div class="px-3">
-          <img src="./assets/Rectangle.png" alt="" class="w-full">
+        <div class="px-3 ">
+          <img src="./assets/Rectangle.png" alt="" class="w-auto">
         </div>
 
       </div>
@@ -230,8 +239,8 @@
      <p class="font-medium text-lg text-[#494949] hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
     <p> <p class="font-medium text-lg text-[#494949] block lg:hidden">The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered wood, sleek metal accents.</p></p>
     </div>
-    <div class="grid grid-cols-12   h-full bg-white ">
-      <div class="col-span-12    lg:col-span-8 p-6 ">
+    <div class="grid grid-cols-12  lg:grid-rows-12 h-full bg-white ">
+      <div class="col-span-12 lg:row-span-6   lg:col-span-8 p-6 ">
          <div class="flex flex-col lg:flex-row gap-0 items-center justify-between  w-auto shadow-xl rounded-xl">
           <img src="./assets/img1.png" alt="" class="w-full lg:w-auto p-6">
           <div class="p-4 ">
@@ -246,13 +255,13 @@
           </div>
          </div>
       </div>
-      <div class=" col-span-12 lg:col-span-4 rounded-xl w-full shadow-xl p-6">
-     <img src="./assets/img2.png" alt="" class=" w-full lg:w-auto  ">
+      <div class=" col-span-12 lg:row-span-6  lg:col-span-4 rounded-xl w-full shadow-xl p-6">
+     <img src="./assets/img2.png" alt="" class=" w-full p-2 h-auto  ">
       </div>
-  <div class="lg:relative col-span-12 lg:col-span-2 p-6 rounded-xl shadow-xl w-full">
+  <div class="lg:relative col-span-12 lg:row-span-6  lg:col-span-2 p-6 rounded-xl shadow-xl w-full">
     <img src="./assets/img3.png" alt=""  class=" lg:absolute lg:top-6 lg:right-1 w-full  ">
   </div>
-  <div class="col-span-12 lg:col-span-8 p-6 rounded-xl shadow-xl">
+  <div class="col-span-12 lg:col-span-8 lg:row-span-6  p-6 rounded-xl shadow-xl">
     <div class="flex flex-col lg:flex-row gap-2 items-center justify-between   ">
       <img src="./assets/img4.png" alt=""  class="w-full lg:w-auto  ">
       <div class="p-2">
@@ -267,7 +276,7 @@
       </div>
   </div>
     </div>
-    <div class=" col-span-12 lg:col-span-2 rounded-2xl p-6 shadow-2xl">
+    <div class=" col-span-12 lg:col-span-2 lg:row-span-6  rounded-2xl p-6 shadow-2xl">
        <img src="./assets/img5.png" alt="" class="lg:w-auto w-full  ">
     </div>
   </div>
