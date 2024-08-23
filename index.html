@@ -37,7 +37,7 @@
 
     </style>
 </head>
-<body>
+<body class="md:container mx-auto">
     <header class=" bg-[#E9E9E9]">
       <div class="navbar bg-[#E9E9E9] ">
         <div class="navbar-start">
@@ -130,11 +130,11 @@
           <div class="">
             <img src="./assets/Vector.png" alt="" class="w-16 hidden lg:block absolute left-16 -top-4">
             <button class="btn w-36 rounded-3xl mx-32 lg:mx-0 "><i class="fa-solid fa-arrow-right "></i>About Us</button>
-            <h1 class="font-bold text-[40px]  text-center lg:text-left w-full">We design thoughtful <br> liveable spaces</h1>
-            <p class="font-medium text-[16px]   px-3 hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-              <p class="font-medium text-[16px]   px-3 block lg:hidden">The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered wood, sleek metal accents.</p>
+            <h1 class="font-bold text-[40px]  text-center lg:text-left w-full px-[.5]">We design thoughtful <br> liveable spaces</h1>
+            <p class="font-medium text-[16px] text-center   px-3 hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              <p class="font-medium text-[16px] text-center   px-3 block lg:hidden">The barn house captivates with its blend of rustic charm and modern sophistication,featuring weathered wood, sleek metal accents.</p>
              
-              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl lg:w-full  mr-5">
+              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl px-3 md:px-0 lg:w-full  mr-5">
                  <img src="./assets/commercial.png" alt="">
                 <div class="flex flex-col">
                   <h1 class="font-extrabold text-xl ">Commercial</h1>
@@ -142,7 +142,7 @@
                
                 </div> 
               </div>
-              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl  w-full  mr-5 mt-2">
+              <div class="flex flex-row gap-5 p-6 rounded-2xl shadow-xl px-3 md:px-0 w-full  mr-5 mt-2">
                 <img src="./assets/residential.png" alt="">
                 <div class="flex flex-col">
                   <h1 class="font-extrabold text-xl ">Residential</h1>
@@ -154,7 +154,7 @@
   
           </div>
    
-        <div class="">
+        <div class="px-3">
           <img src="./assets/Rectangle.png" alt="" class="w-full">
         </div>
 
@@ -224,7 +224,7 @@
     </div>
     </section>
     <!-- latest portfolio section -->
-    <div class="text-center mt-16  md:container mx-auto  bg-white">
+    <div class="text-center mt-16  md:container mx-auto  bg-white ">
       <button class="btn bg-explore-btn rounded-3xl h-[38px]"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest Work</button>
      <h1 class="font-extrabold text-4xl mb-3">Our Latest Portfolio</h1>
      <p class="font-medium text-lg text-[#494949] hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
@@ -273,18 +273,23 @@
   </div>
     <!-- new -->
        <div class="text-center my-44">
-        <h1 class="font-extrabold text-2xl ">
-          Send Us FeedBack
-        </h1>
-        <div class="rating mb-6">
-          <input type="radio" name="rating-1" class="mask mask-star" />
-          <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
-          <input type="radio" name="rating-1" class="mask mask-star" />
-          <input type="radio" name="rating-1" class="mask mask-star" />
-          <input type="radio" name="rating-1" class="mask mask-star" />
-        </div>
-        <h1 class="font-extrabold text-2xl">Frequently Asked Questions</h1>
-        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0">
+        
+            <h1 class="font-extrabold text-2xl mb-2">
+              Rate Us
+            </h1>
+            <p class="font-medium text-lg mb-3">Send Us Feedback </p>
+            <div class="rating mb-6">
+              <input type="radio" name="rating-1" class="mask mask-star bg-yellow-500" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-yellow-500" checked="checked " />
+              <input type="radio" name="rating-1" class="mask mask-star bg-yellow-500" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-yellow-500" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-yellow-500" />
+            </div>
+        
+        
+      
+        <h1 class="font-extrabold text-4xl mb-6 px-6">Frequently Asked Questions</h1>
+        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0 bg-red-50 mb-3">
           <input type="radio" name="my-accordion-3" checked="checked" />
           <div class="collapse-title text-xl font-medium">Does Rinterio Provide Budget friendly Services?</div>
           <div class="collapse-content">
@@ -292,7 +297,7 @@
             <p class="font-medium text-lg text-[#737373] block lg:hidden">Yes.Our Services are affordable as per clients requirement.You can pick your budget-friendly package for decorate your <br> household  or officials from Rinterio.Thank you.</p>
           </div>
         </div>
-        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0">
+        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0 bg-amber-50 mb-3">
           <input type="radio" name="my-accordion-3" />
           <div class="collapse-title text-xl font-medium">Is Rinterio commited to complete their service on deadline?</div>
           <div class="collapse-content">
@@ -300,7 +305,7 @@
             <p class="font-medium text-lg text-[#737373] block lg:hidden">Yes.we gurranty every client to submit their <br> services on time. Our clients are fully satisfied on this issue. You can check the review section</p>
           </div>
         </div>
-        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0">
+        <div class="collapse collapse-plus bg-base-200 lg:w-1/2 w-auto mx-auto left-0 bg-cyan-50 mb-24">
           <input type="radio" name="my-accordion-3" />
           <div class="collapse-title text-xl font-medium">Where are Rinterio located?</div>
           <div class="collapse-content">
@@ -312,7 +317,7 @@
     
        </div>
              <!-- read our articles -->
-              <div class="bg-article-bg text-center mx-auto mb-4 py-28">
+              <div class="bg-article-bg text-center mx-auto mb-4 px-3 py-28">
                 <button class="btn bg-explore-btn rounded-3xl h-[38px] mb-6 ">
                   <i class="fa-solid fa-arrow-right"></i> Rinterio News</button>
                    <h1 class="font-extrabold text-4xl mb-8 text-black">Read Our Articles and News</h1>
@@ -411,7 +416,7 @@
             
 
       <!-- new project section -->
-      <div class="bg-[url('./assets/bg.jpg')] text-center bg-no-repeat  mx-auto bg-cover ">
+      <div class="bg-[url('./assets/bg.jpg')] text-center bg-no-repeat  mx-auto bg-cover px-3">
         <button class="btn bg-explore-btn rounded-3xl h-[38px] my-10"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest Work</button>
           <h1 class="font-bold text-4xl mb-6">Let’s Discuss Next Project</h1>
            <p class="mb-8 hidden lg:block">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
